@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Document</title> -->
+    <link rel="stylesheet" href="news.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>News,Blogs & updates</title>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+  />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="images/KIF_PNG_.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/KIF_PNG_.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/KIF_PNG_.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="images/KIF_PNG_.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="images/KIF_PNG_.png"
+    />
+    <link rel="apple-touch-icon" sizes="120x120" href="images/KIF_PNG_.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/KIF_PNG_.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/KIF_PNG_.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <section class="group-photo-background">
+      <header class="primary-header flex">
+        <div>
+          <img
+            class="logo"
+            src="images/IMG_6819.PNG"
+            alt="kogi carnival logo"
+          />
+        </div>
+
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="nav-list"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Menu</span>
+        </button>
+        <nav>
+          <ul id="navList" data-visible="false" class="nav-list flex">
+            <li><a href="style.html">Home </a></li>
+            <li ><a href="about.html">About</a></li>
+            <li ><a href="news.html">News</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="home" id="home">
+        <div class="home-text container">
+          <h2 class="home-title">NEWS AND BLOG</h2>
+          <p class="home-subtitle">Your source of great content</p>
+        </div>
+      </div>
+    </section>
+    <div class="post-filter container">
+      <span class="filter-item active-filter" data-filter="all">ALL</span>
+      <span class="filter-item" data-filter="info">INFO</span>
+      <span class="filter-item" data-filter="gist"> GIST</span>
+      <span class="filter-item" data-filter="ent">ENTERTAINMENT</span>
+    </div>
+    <div class="down-arrow" id="backToTop" onclick="scrollToTop()">
+      <a href="#trending" class="down"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+    <section class="post container">
+      <!-- post-box-1 -->
+      <div class="post-box info">
+        <img src="images/IMG_5962.WEBP" alt="" class="post-img" />
+        <h2 class="category">INFO</h2>
+        <a href="post-page.html" class="post-title">
+          New Leadership Announced: Hon.Dami Adenuga Appointed Chairman of the
+          Media Committee
+        </a>
+        <span class="post-date">12 Oct 2024</span>
+        <p class="post-description">
+          In a significant move, Dami Adenuga has been appointed as the new
+          Chairman of the Media Committee. With a wealth of experience in the
+          media and communications sector, Dami Adenuga is expected to bring
+          fresh insights and innovative strategies to the committee. This
+          appointment marks a new chapter for the team, with a focus on
+          enhancing public engagement and ensuring effective media outreach.
+          Colleagues have expressed confidence in [Name]'s leadership,
+          anticipating that their expertise will play a pivotal role in driving
+          the committee’s objectives forward.
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img
+            src="images/group-friends-african-carnival-wearing-costumes.jpg"
+            alt=""
+            class="profile-img"
+          />
+          <span class="profile-name">DON ONOFIOK</span>
+        </div>
+      </div>
+      <!-- post-box-2 -->
+      <div class="post-box ent">
+        <img src="images/IMG_0911.PNG" alt="" class="post-img" />
+        <h2 class="category">ENTERTAINMENT</h2>
+        <a href="post-page.html" class="post-title">
+          How Well Do You Know Kogi?
+        </a>
+        <span class="post-date">12 Oct 2024</span>
+        <p class="post-description">
+          Think you know it all? Test your knowledge and challenge your brain
+          with our fun and engaging trivia game! Whether you're a trivia
+          enthusiast or just looking for a way to pass the time, this game will
+          keep you on your toes with questions ranging from history to pop
+          culture. It's quick, easy to play, and a great way to learn something
+          new with every question. Plus, you can compete with friends and see
+          who scores the highest! Take a break, have some fun, and prove your
+          trivia mastery. Are you ready to take the challenge? Play now and find
+          out!
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img
+            src="images/group-friends-african-carnival-wearing-costumes.jpg"
+            alt=""
+            class="profile-img"
+          />
+          <span class="profile-name">DON ONOFIOK</span>
+        </div>
+      </div>
+      <!-- post-box-3 -->
+      <div class="post-box gist">
+        <img src="images/IMG_0912.PNG" alt="" class="post-img" />
+        <h2 class="category">GIST</h2>
+        <a href="post-page.html" class="post-title">
+          Kogi Culinary Extravaganza: Get Ready for a Local Feast That’s
+          Anything But Ordinary
+        </a>
+        <span class="post-date">12 Oct 2024</span>
+        <p class="post-description">
+          Prepare your palate for a mouthwatering adventure as we showcase the
+          diverse and delightful local dishes of Kogi State! From the
+          tantalizing Bitter Leaf Soup to the hearty Kwara, and the beloved
+          Amala, this event promises a smorgasbord of flavors that will make
+          your taste buds dance. Whether you're a fan of spicy stews or savory
+          rice dishes, Kogi's rich culinary heritage has something to satisfy
+          every craving. So, bring your appetite and a sense of adventure,
+          because this feast will have you saying, “Just one more bite!”
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img
+            src="images/IMG_0920.JPG"
+            alt=""
+            class="profile-img"
+          />
+          <span class="profile-name">Hajiya Aishat Oyiza Omade</span>
+        </div>
+      </div>
+      <!-- post-box-4 -->
+
+      <div class="post-box gist">
+        <img src="images/IMG_0915.PNG" alt="" class="post-img" />
+        <h2 class="category">GIST</h2>
+        <a href="post-page.html" class="post-title">
+          Are You Ready for the Kogi Carnival? Excitement Awaits!
+        </a>
+        <span class="post-date">12 Oct 2024</span>
+        <p class="post-description">
+          The countdown has begun, and we can’t wait to celebrate the vibrant
+          spirit of Kogi State with you at the upcoming carnival! Get ready for
+          an unforgettable experience filled with colorful parades, lively
+          music, and, of course, a mouthwatering array of local dishes that will
+          tantalize your taste buds. This year’s carnival promises to be bigger
+          and better than ever, showcasing the rich culture and traditions of
+          our community. So gather your friends and family, and prepare for a
+          day of joy and festivities—let's make unforgettable memories together!
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img
+            src="images/IMG_0919.PNG"
+            alt=""
+            class="profile-img"
+          />
+          <span class="profile-name">Dami Adenuga</span>
+        </div>
+      </div>
+      <!-- post-box-5 -->
+      <div class="post-box ent">
+        <img src="images/IMG_0918.PNG" alt="" class="post-img" />
+        <h2 class="category">ENTERTAINMENT</h2>
+        <a href="post-page.html" class="post-title">
+          Get Ready to Groove: Jumabee Set to Perform Live at the Carnival!
+        </a>
+        <span class="post-date">12 Oct 2024</span>
+        <p class="post-description">
+          Get your dancing shoes on because the sensational Jumabee is coming to
+          light up the stage at this year's carnival! Known for his infectious
+          energy and captivating performances, Jumabee will be bringing his hit
+          songs and dynamic style to the spotlight, promising a night of
+          unforgettable entertainment. With a blend of traditional and
+          contemporary sounds, he’s sure to get everyone on their feet and
+          singing along. Don’t miss the chance to experience his electrifying
+          performance live—join us for a celebration filled with music, dance,
+          and joy as we make memories that will last a lifetime!
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img
+            src="images/IMG_0919.PNG"
+            alt=""
+            class="profile-img"
+          />
+          <span class="profile-name">Dami Adenuga</span>
+        </div>
+      </div>
+      <!-- post-box-6 -->
+      <div class="post-box info">
+        <img
+          src="images/happy-group-friends-african-carnival.jpg"
+          alt=""
+          class="post-img"
+        />
+        <h2 class="category">INFO</h2>
+        <a href="post-page.html" class="post-title">
+          Bringing the Carnival Experience to Idah, Okene, and Kabba!
+        </a>
+        <span class="post-date">12 Oct 2024</span>
+        <p class="post-description">
+          Get ready, Kogi State! We are excited to announce that this year’s
+          carnival is hitting the vibrant towns of Idah, Okene, and Kabba,
+          bringing the celebration right to your doorstep! Expect a spectacular
+          display of culture, music, and food as we unite these communities for
+          an unforgettable experience. Each location will showcase unique local
+          flavors, traditional dances, and thrilling performances that reflect
+          the rich heritage of Kogi. Join us as we spread joy and excitement,
+          turning these towns into a festive wonderland. Don’t miss out on the
+          fun—let’s make this carnival a memorable celebration together!
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img
+            src="images/IMG_0921.JPG"
+            alt=""
+            class="profile-img"
+          />
+          <span class="profile-name">Juwon Olurunnipa</span>
+        </div>
+      </div>
+      <!-- post-box-7 -->
+
+      <div class="post-box gist">
+        <img src="images/IMG_0917.PNG" alt="" class="post-img" />
+        <h2 class="category">GIST</h2>
+        <a href="post-page.html" class="post-title">
+          Join the March: Let’s Dance Our Way to the Carnival
+        </a>
+        <span class="post-date">12 Oct 2024</span>
+        <p class="post-description">
+          As we prepare for the carnival, I’ll have my dancing shoes on and my
+          energy alive, ready to march with excitement! The rhythm of the music
+          will guide our steps, and the vibrant atmosphere will fuel our spirits
+          as we celebrate together. Let’s unite in joy, dance like nobody’s
+          watching, and embrace the festivities that await us. With every beat,
+          we’ll create unforgettable memories and a sense of community that will
+          resonate long after the last note fades. So grab your friends, join
+          the fun, and let’s make this carnival a spectacular celebration of
+          life and culture!
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img
+            src="images/group-friends-african-carnival-wearing-costumes.jpg"
+            alt=""
+            class="profile-img"
+          />
+          <span class="profile-name">Media Team</span>
+        </div>
+      </div>
+      <!-- post-box-8 -->
+      <div class="post-box ent">
+        <img
+          src="images/happy-group-friends-african-carnival.jpg"
+          alt=""
+          class="post-img"
+        />
+        <h2 class="category">ENTERTAINMENT</h2>
+        <a href="post-page.html" class="post-title">
+          Happening in Kogi,DO you know?
+        </a>
+        <span class="post-date">12 Oct 2024</span>
+        <p class="post-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          sagittis lectus id ante interdum, eu ornare nulla tincidunt. Phasellus
+          in lorem consequat, congue elit non, tempus dolor. Vivamus sed dui in
+          nunc interdum volutpat. Aliquam vel risus facilisis, pellentesque
+          augue ut, semper erat. Quisque in elit felis. Morbi ut ex in augue
+          varius dignissim. Nunc ac pellentesque odio
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img
+            src="images/group-friends-african-carnival-wearing-costumes.jpg"
+            alt=""
+            class="profile-img"
+          />
+          <span class="profile-name">Hon.Oyiza</span>
+        </div>
+      </div>
+      <!-- post-box-9 -->
+      <div class="post-box info">
+        <img
+          src="images/happy-group-friends-african-carnival.jpg"
+          alt=""
+          class="post-img"
+        />
+        <h2 class="category">INFO</h2>
+        <a href="post-page.html" class="post-title">
+          Happening in Kogi,DO you know?
+        </a>
+        <span class="post-date">12 Oct 2024</span>
+        <p class="post-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          sagittis lectus id ante interdum, eu ornare nulla tincidunt. Phasellus
+          in lorem consequat, congue elit non, tempus dolor. Vivamus sed dui in
+          nunc interdum volutpat. Aliquam vel risus facilisis, pellentesque
+          augue ut, semper erat. Quisque in elit felis. Morbi ut ex in augue
+          varius dignissim. Nunc ac pellentesque odio
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img
+            src="images/group-friends-african-carnival-wearing-costumes.jpg"
+            alt=""
+            class="profile-img"
+          />
+          <span class="profile-name">Dami Adenuga</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="col">
+          <img src="images/KIF_PNG_.png" class="second-logo" alt="" />
+          <!-- <p>
+            Say Hello to Rapid rescue.Dedicated to providing swift and reliable
+            emergency medical services, our ambulance team is committed to
+            ensuring your safety and well-being in times of need. We're just a
+            call away, 24/7.
+          </p> -->
+          <p>
+            <span> KOGI INTERNATIONAL CARNIVAL 2024,</span> an annual
+            celebration of culture, music, and arts in Kogi State, showcasing
+            vibrant traditions and exciting festivities
+          </p>
+        </div>
+        <div class="col">
+          <h3>
+            Office
+            <div class="underline"><span></span></div>
+          </h3>
+          <p>Wuze zone 2</p>
+          <p>opposite spar supermarket</p>
+          <p>Top floor</p>
+          <p class="email-id">Kogicarnival@gmail.com</p>
+          <h4>+234 123456789</h4>
+        </div>
+        <div class="col">
+          <h3>
+            Links
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#about us">About us</a></li>
+            <li><a href="#testimonials">News</a></li>
+            <li><a href="">Contact US</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>
+            Newsletter
+            <div class="underline"><span></span></div>
+          </h3>
+          <form action="">
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" placeholder="Enter your email id" required />
+            <button type="submit">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JQUERY CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="secondmain.js"></script>
+    <script src="nav.js"></script>
+    <script>
+      window.onscroll = function () {
+        checkScrollPosition();
+      };
+
+      function checkScrollPosition() {
+        // Show button when the user scrolls down 500px or more
+        if (
+          document.body.scrollTop > 500 ||
+          document.documentElement.scrollTop > 500
+        ) {
+          document.getElementById("backToTop").style.display = "block";
+        } else {
+          document.getElementById("backToTop").style.display = "none";
+        }
+      }
+
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>
